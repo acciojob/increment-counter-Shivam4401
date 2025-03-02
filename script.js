@@ -5,8 +5,7 @@ let btn = document.querySelector("#incrementBtn");
 let count = 0;
 
 function counterValue () {
-	alert(`localhost:3000 says
-	${count}`);
+	alert(`localhost:3000 says \n ${count}`);
 	count++;
 	val.textContent = count;
 }
